@@ -207,3 +207,28 @@ High Performance Computing
 
 
 
+
+
+
+
+### Parallel File System - Lustre
+
+- Intel Lustre is an open-source parallel file system and is used in some of the largest HPC clusters in the world due to its hight performance and scalability.
+- Lustre utilizes the following concepts and components to present a unified Lustre file system.
+- [Availability of STAR-CCM+ on Microsoft Azure](https://azure.microsoft.com/en-us/blog/availability-of-star-ccm-on-microsoft-azure/)
+
+
+
+
+
+
+
+
+
+## Demo
+
+- Create an IaaS HPC Cluster
+  - IaaS VMs: Head / Broker Node, Compute Nodes
+- Create a Cloud Service for worker roles
+  - Create Azure node template
+  - Add Azure nodes to IaaS HPC Cluster
