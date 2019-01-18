@@ -27,20 +27,32 @@ High Performance Computing
 
 
 
-Windows HPC Pack 소개
+#### Windows HPC Pack 소개
 
-- Free add-on to Windows Server to create HPC Cluster
+- **Free add-on to Windows Server to create HPC Cluster**
   - (Compute Server 2003 -> HPC Pack 2008 R2 / 2012 R2 / 2016)
   - Latest Version: HPC Pack 2016 Update 1
+  - [System Requirements](https://docs.microsoft.com/en-us/powershell/high-performance-computing/system-requirements-for-hpc-pack-2016?view=hpc16-ps)
 
 
 
-- HPC Pack provides you:
+- **HPC Pack provides you**
   - Job & Resource Scheduler
   - Distributed Runtime: Sweep, MPI, SOA, Excel UDT
   - Cluster Manager: Configuration, Nodes and Job Management, Diagnostics, Reports, ...
   - Client API, Management API, Logging API
   - Web Portal, Debugging Tools, ...
+
+
+
+- **HPC Pack Cluster Manager**
+  - Node
+    - Head Node: 클러스터를 관리하는 노드 (이중화 구성 가능)
+    - Compute Node: 실제로 연산 업무를 수행하는 노드
+  - Network
+    - Enterprise Network: Public Network
+    - Private Network
+  - 
 
 
 
