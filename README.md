@@ -95,16 +95,95 @@ High Performance Computing
 
 ### 두 종류의 어플리케이션 (Two Kinds of Application)
 
-#### Embarrassingly Parallel (각각 병렬적으로 처리)
+#### Embarrassingly Parallel (처치 곤란 병렬)
 
 - 업무를 여러 노드에 할당하여, 연산 처리하여 결과를 내놓는다.
+- 작업 결과 사이의 소통이나 연관성이 필요 없는 경우
 - Compute nodes don't need to talk to each other, or very little cross-node coomunication
 - Usually a parameter sweep, a job splitting, or a search/comparison through data.
 - Examples: Monte Carlo Simulations, Image/Video Randering, Genetic Algorithms, Sequence Matching, File Processing
 
 #### Tighly Coupled
 
-- 업무를 한 노드에 할당을 하고, 결과를 서로 공유한다. (노드 간의 연결성 있는 업무 프로세스 작업)
+- 업무를 한 노드에 할당을 하고, 결과를 서로 공유한다. (노드 간의 연결성 있는 워크로드)
 - Compute nodes ndeed to talk to each other constantly
 - Requires a fast interconnection network (Low latency and high throughput)
 - Examples: Automotive crash simulation, Fluid Dynamics, Climate Modeling, Resevoir Simulation, Manugacturing Desing
+
+
+
+### Job Types
+
+#### Parametric Sweep
+
+- Referred to as "처치 곤란 병렬"
+
+
+
+#### MPI
+
+- Message Passing Interface is an industry standard for messaging between compute nodes
+- Excutables that run on multiple cores or nodes that have dependencies
+- Need to communicate with each other
+  - Two Parts
+    - APIs used in the program
+    - Application launcher (mpiexec.exe) that controls the supplication's execution
+  - C/C++, Microsoft .Net
+  - Visual Studio
+
+
+
+##### SOA Application
+
+- Service-Oriented Architecture (SOA) is an architectural style desinged for building distributed systems
+
+
+
+#### Microsoft Excel Offloading
+
+- Escutes of compute-intensive Microsoft Excel weorkbooks with independent
+
+
+
+## Hardware and VMs
+
+### Azure
+
+#### Infrasture Services
+
+- Cloud Services
+- Virutal Machines
+- VM Scale Sets
+- Containers
+
+
+
+### Platform Services
+
+- Compute - Batch
+
+
+
+### Azure Hardware and VM Sizes
+
+- A
+  - Entry Level VMs
+  - Dev/Test Workload
+- D
+  - General Purpose VMs
+  - Common Applications, Web Servers etc
+- F
+  - Compute Optimized VMs
+  - Gaming, Analytics
+- G
+  - Large Memory VMs
+  - Large Databases
+- L
+  - Stroage Optimized VMs
+  - NoSQL Databases(Cassandra, MongoDB), Data warehousing
+- H (Infiniband)
+  - High Performance VMs
+  - Batch Processing, Fluid Dynamics, Monte Carlo Simulation
+- N (Infiniband)
+  - GPU-enabled VMs
+  - Graphic based applications,
