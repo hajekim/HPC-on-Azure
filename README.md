@@ -166,24 +166,44 @@ High Performance Computing
 
 ### Azure Hardware and VM Sizes
 
-- A
+- A-Series
   - Entry Level VMs
   - Dev/Test Workload
-- D
+- D-Series
   - General Purpose VMs
   - Common Applications, Web Servers etc
-- F
+- F-Series
   - Compute Optimized VMs
   - Gaming, Analytics
-- G
+- G-Series
   - Large Memory VMs
   - Large Databases
-- L
+- L-Series
   - Stroage Optimized VMs
   - NoSQL Databases(Cassandra, MongoDB), Data warehousing
-- H (Infiniband)
+- H-Series (Infiniband 사용 가능)
   - High Performance VMs
   - Batch Processing, Fluid Dynamics, Monte Carlo Simulation
-- N (Infiniband)
+- N-Series (Infiniband 사용 가능)
   - GPU-enabled VMs
   - Graphic based applications,
+
+
+
+### Virtualized RDMA
+
+#### RDMA
+
+- A technology for transferring data between memories over a high-speed network.
+- Provides the ability to transfer remote data directly from / to memory without using a CPU. Reduces host CPU burden & contention for host memory and I/O buses.
+
+
+
+#### Network Direct
+
+- High Performance networking abstraction layer for IHVs
+- Microsoft defined interfaces for RDMA
+- Transparent support of InfitiBand, iWARP and RoCE
+
+
+
