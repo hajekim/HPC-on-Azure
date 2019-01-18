@@ -56,3 +56,55 @@ High Performance Computing
 
 
 
+### Mission
+
+- 리서치 조사자, 엔지니어, 금융 분석가(Quants), 디자이너, 개발자, 데이터 사이언티스트 등에게 활용 가능하다.
+- 활용 사례
+  - 풍력 발전소의 바람 역학 실험
+  - 자동차 충돌 실험, 자동차 바람 영향 역학 실험 (Engineering model and simulation Car crash simulation)
+  - 비디오 랜더링 (Video Rendering)
+  - 유전학 / 의약 (Genomics / Pharma)
+  - Oil & Gas, Seismic, Reservoir Simulation
+  - 금융 위기 분석 (Financial Risk Analysis)
+  - Earth Science, Climate Hydrology
+- 활용 가능 분야
+  - Gov'T and Defense
+  - Higher Education
+  - Earth Sciences
+  - Energy & Utilites
+  - Manufacturing
+  - Healthcare and Life Sciences
+  - Financial Services
+  - Syber Security
+  - Communications and Media
+  - Condsumer-Driven Industries
+  - 아직도 여러 분야로 확대 중
+
+
+
+#### Transformation Requires
+
+- Total autonomy will only be 100% accident-free by testing a minimum of 8.8 million miles.
+- Autonomous vehicles will generate and consume reougly 4,000 gigabytes of data a day by 2020.
+- 20.4 billion things will be connected by 2020.
+- An animated film might render as much as 65 million hours of footage to come up with 90 minutes of worhwhile materials.
+- NANA's Earth Obserbving System Data and Information System (EODSIS) distributes almost 28 terabytes of data a day.
+- An aireplane will generate 40 terabytes of data a day by 2020.
+
+
+
+### 두 종류의 어플리케이션 (Two Kinds of Application)
+
+#### Embarrassingly Parallel (각각 병렬적으로 처리)
+
+- 업무를 여러 노드에 할당하여, 연산 처리하여 결과를 내놓는다.
+- Compute nodes don't need to talk to each other, or very little cross-node coomunication
+- Usually a parameter sweep, a job splitting, or a search/comparison through data.
+- Examples: Monte Carlo Simulations, Image/Video Randering, Genetic Algorithms, Sequence Matching, File Processing
+
+#### Tighly Coupled
+
+- 업무를 한 노드에 할당을 하고, 결과를 서로 공유한다. (노드 간의 연결성 있는 업무 프로세스 작업)
+- Compute nodes ndeed to talk to each other constantly
+- Requires a fast interconnection network (Low latency and high throughput)
+- Examples: Automotive crash simulation, Fluid Dynamics, Climate Modeling, Resevoir Simulation, Manugacturing Desing
