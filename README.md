@@ -20,3 +20,27 @@ whong@microsoft.com
 
 
 
+## What's HPC
+
+High Performance Computing
+그리드 컴퓨팅, 병렬 컴퓨팅으로 불리우는 포괄적인 방식의 컴퓨팅 방식
+
+
+
+Windows HPC Pack 소개
+
+- Free add-on to Windows Server to create HPC Cluster
+  - (Compute Server 2003 -> HPC Pack 2008 R2 / 2012 R2 / 2016)
+  - Latest Version: HPC Pack 2016 Update 1
+
+
+
+- HPC Pack provides you:
+  - Job & Resource Scheduler
+  - Distributed Runtime: Sweep, MPI, SOA, Excel UDT
+  - Cluster Manager: Configuration, Nodes and Job Management, Diagnostics, Reports, ...
+  - Client API, Management API, Logging API
+  - Web Portal, Debugging Tools, ...
+
+
+
